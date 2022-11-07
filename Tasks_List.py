@@ -8,3 +8,13 @@ print(friends.pop(0))
 print(friends[-1])  
 print(friends.pop(-1)) 
 
+# Task 2
+#From the previous list, print the odd names on the first line,
+#  and on the second line, print the even names
+
+friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+
+print(friends[::2])  
+
+print(friends[1::2]) 
+
