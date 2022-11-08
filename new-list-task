@@ -1,0 +1,7 @@
+#print the group of names 2, 3 and 4 in the first line, 
+#then the last name and the one before it in the second line,
+#knowing that the Code should work in case we changed the number of items in the list
+
+friends = ["mahmoud", "Ahmed", "Sayed", "Ali", "Mahmoud"]
+print(friends[1:4])  # ['Ahmed', 'Sayed', 'Ali']
+print(friends[-2:])  # ['Ali', 'Mahmoud']
